@@ -23,7 +23,7 @@ class Voiture {
                 '}';
     }
 
-    // Builder pour la classe Voiture
+   
     public static class BuilderVoiture {
         private Couleur couleur;
         private Moteur moteur;
