@@ -7,7 +7,7 @@ public class Main {
        
         Voiture voiturePersonnalisee = new Voiture.BuilderVoiture().definirCouleur(Couleur.NOIR).definirMoteur(Moteur.ELECTRIQUE).definirTransmission(Transmission.MANUELLE).ajouterOption("Caméra de recul").construire();
 
-        // Afficher les voitures
+       
         System.out.println(voitureSport);
         System.out.println(voitureFamiliale);
         System.out.println(voiturePersonnalisee);
